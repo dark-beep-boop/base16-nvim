@@ -1,3 +1,7 @@
 default:
   extension: .lua
   output: colors
+
+no-linenr-bg:
+  extension: .lua
+  output: colors
