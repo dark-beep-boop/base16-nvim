@@ -35,7 +35,7 @@ local make = function(c)
         {hlgroup = 'SignColumn', guifg = c.base03, guibg = c.base00, gui = nil, guisp = nil},
         {hlgroup = 'StatusLine', guifg = c.base04, guibg = c.base02, gui = 'none', guisp = nil},
         {hlgroup = 'StatusLineNC', guifg = c.base03, guibg = c.base01, gui = 'none', guisp = nil},
-        {hlgroup = 'VertSplit', guifg = c.base00, guibg = c.base00, gui = 'none', guisp = nil},
+        {hlgroup = 'VertSplit', guifg = c.base01, guibg = c.base00, gui = 'none', guisp = nil},
         {hlgroup = 'ColorColumn', guifg = nil, guibg = c.base01, gui = 'none', guisp = nil},
         {hlgroup = 'CursorColumn', guifg = nil, guibg = c.base01, gui = 'none', guisp = nil},
         {hlgroup = 'CursorLine', guifg = nil, guibg = c.base01, gui = 'none', guisp = nil},
