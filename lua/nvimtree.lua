@@ -14,7 +14,7 @@ local make = function(c)
         {hlgroup = 'NvimTreeFolderName', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeSpecialFile', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeOpenedFolderName', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
-        {hlgroup = 'NvimTreeCursorLine', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
+        {hlgroup = 'NvimTreeCursorLine', guifg = nil, guibg = c.base00, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeIn', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeEndOfBuffer', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         -- LuaFormatter on
