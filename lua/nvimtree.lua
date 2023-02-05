@@ -3,7 +3,7 @@ local make = function(c)
     return {
         -- LuaFormatter off
         {hlgroup = 'NvimTreeNormal', guifg = nil, guibg = c.base00, gui = 'none', guisp = nil},
-        {hlgroup = 'NvimTreeVertSplit', guifg = c.base01, guibg = c.base00, gui = 'none', guisp = nil},
+        {hlgroup = 'NvimTreeVertSplit', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeRootFolder', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeGitDirty', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
         {hlgroup = 'NvimTreeGitNew', guifg = nil, guibg = nil, gui = 'none', guisp = nil},
